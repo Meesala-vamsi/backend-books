@@ -5,7 +5,7 @@ const jwt = require('jsonwebtoken')
 const {open} = require('sqlite')
 const sqlite3 = require('sqlite3')
 const app = express()
-const dbPath=path.join(__dirname,'goodreads.db')
+const dbPath=path.join(__dirname,'./routes/goodreads.db')
 
 const createLogin = require('./routes/Login')
 const createHome=require('./routes/Home')
