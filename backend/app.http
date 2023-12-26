@@ -1,5 +1,5 @@
 GET http://localhost:4000/
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidmFtc2kiLCJpYXQiOjE3MDM1MDk0NDh9.83CQny4hBPW_1r0Xs1HGZ_RyOErvHkeQEMfct9F1QAY
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidmFtc2kiLCJpYXQiOjE3MDM1OTI2NjF9.FNRuoaMOOsnSFh1eHzhrF-QzoU9NhDCSjoFkjF7f6Vg
 
 ###
 

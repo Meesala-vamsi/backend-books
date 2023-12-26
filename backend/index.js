@@ -10,15 +10,11 @@ const createLogin = require('./routes/Login')
 const createHome=require('./routes/Home')
 
 app.use(express.json())
-let db=null
 
-const initializeDb= async()=>{
-    db=await open({
-        filename:dbPath,
-        driver:sqlite3.Database
-    })
+
+
     app.listen(4000)
-}
+
 
 
 
@@ -30,4 +26,3 @@ app.use('/',createHome)
 
 
 
-initializeDb();
